@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cleaning Hogwarts Data</title>
+  </head>
+  <body>
+    <h1>Student info</h1>
+    <table id="thelist">
+      <thead>
+        <tr>
+          <th>first-name</th>
+          <th>middle-name</th>
+          <th>last-name</th>
+          <th>gender</th>
+          <th>house</th>
+        </tr>
+      </thead>
+    </table>
+
+    <template id="students">
+      <tr>
+        <td data-field="first-name">first-name</td>
+        <td data-field="middle-name">middle-name</td>
+        <td data-field="last-name">last-name</td>
+        <td data-field="gender">gender</td>
+        <td data-field="house">house</td>
+      </tr>
+    </template>
+    <script src="script.js"></script>
+  </body>
+</html>
